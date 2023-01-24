@@ -3,8 +3,20 @@
 body {
     width:1000px;
     font-family: 'Germania One', cursive;
+    text-align: center;
 }
-
+nav {
+    background-color: wheat;
+    box-shadow:1px 4px;
+}
+nav a{
+display: inline-block;
+text-align:center;
+font-size: 28px;
+width:15%;
+padding:20px;
+text-decoration:none;
+}
 
 h1 {
     margin: 0 20px;

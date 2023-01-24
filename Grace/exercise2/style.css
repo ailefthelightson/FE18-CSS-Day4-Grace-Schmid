@@ -1,0 +1,35 @@
+
+nav {
+    background-color:lightgrey;
+    margin:0;
+}
+
+nav a {
+   display:inline-block;
+    text-align:center;
+    font-size:16px;
+    width:15%;
+    padding:20px;
+    text-decoration:none;
+    /* transition: width 2s; */
+}
+
+.home{
+    font-size:16px;
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+
+.home:hover{
+    font-size:36px;
+}
+
+.call   {
+    background-color: black;
+    transition-property: background-color;
+    transition-duration:2s;
+   
+}
+.call:hover{
+    background-color: red;
+}

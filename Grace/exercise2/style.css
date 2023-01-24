@@ -33,3 +33,20 @@ nav a {
 .call:hover{
     background-color: red;
 }
+.email  {
+    transition-property:height;
+    transition-timing-function:ease-in-out;
+    transition-delay:1s;
+}
+.email:hover   {
+    height:300px;
+    background-color:brown;
+}
+.look   {
+    
+    color:black;
+    transition-property: font;
+}
+.look:hover{
+    font-weight:bolder;
+}
